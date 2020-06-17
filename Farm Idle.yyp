@@ -34,7 +34,7 @@
             "Key": "0e60bcf7-e6fb-48c9-bdda-5ac2ccba47f4",
             "Value": {
                 "id": "9b0cbb2d-f3c0-469b-89dd-7c77633920d0",
-                "resourcePath": "objects\\o_menu\\o_menu.yy",
+                "resourcePath": "objects\\o_bottombar\\o_bottombar.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -100,6 +100,14 @@
                 "id": "85c74e99-8cf7-4648-92a9-bc7c12c8f50c",
                 "resourcePath": "views\\47aa838b-68f0-4350-887f-232568dbe027.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "48e776a2-ed6e-44e9-8e8e-dc70bc0c0bb9",
+            "Value": {
+                "id": "d805abc9-c554-41dd-a118-7fa319b2eefb",
+                "resourcePath": "fonts\\fnt_Menu\\fnt_Menu.yy",
+                "resourceType": "GMFont"
             }
         },
         {
@@ -204,6 +212,14 @@
                 "id": "14f55ebf-791f-4ea0-95b6-fad3b2b71b46",
                 "resourcePath": "objects\\o_controller\\o_controller.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "9a77dff6-86c8-4acd-a742-a275d7bded11",
+            "Value": {
+                "id": "394cc91c-988d-400a-98c9-105a85d8b8d7",
+                "resourcePath": "scripts\\calc_9s_round\\calc_9s_round.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -345,7 +361,8 @@
     ],
     "script_order": [
         "5e9033da-5459-4b40-b719-947b28fee073",
-        "e7cf1f8a-9c50-4ca3-9979-a0434e286508"
+        "e7cf1f8a-9c50-4ca3-9979-a0434e286508",
+        "9a77dff6-86c8-4acd-a742-a275d7bded11"
     ],
     "tutorial": ""
 }

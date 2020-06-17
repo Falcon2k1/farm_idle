@@ -1,7 +1,14 @@
 /// @description Camera creation
 
-view_width = 1920/4;
-view_height = 1080/4;
+// Divisors of View Width and Height:
+// 1 - 1920 x 1080
+// 2 - 960  x 540
+// 3 - 640  x 360
+// 4 - 480  x 270
+// 5 - 384  x 216
+
+view_width = 480;
+view_height = 270;
 
 window_scale = 3;
 
