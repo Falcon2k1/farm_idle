@@ -7,7 +7,7 @@
 // 15 - Center
 // 16 - Right
 
-if click_cd == 0
+if click_cd <= 0
 {
 	switch (sprite_index)
 	{
@@ -15,10 +15,12 @@ if click_cd == 0
 			sprite_index = spr_Fields;
 			image_index = 13;
 			click_cd = 25;
+			wheat_output = 1;
 			break;
-		case spr_Fields:
+		case 1:
 			sprite_index = -1;
 			click_cd = 25;
+			wheat_output = 0;
 			break;
 	}
 }
