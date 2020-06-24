@@ -1,11 +1,16 @@
 /// @description On-click stuff!
 // You can write your code in this editor
 
+
+
 // Image index notes
 // 13 - Standalone
 // 14 - Left 
 // 15 - Center
 // 16 - Right
+
+// COMMENTING THIS WHOLE THING FOR NOW
+// so I can work on adding a menu for this instead
 
 if click_cd <= 0
 {

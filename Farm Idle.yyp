@@ -207,6 +207,14 @@
             }
         },
         {
+            "Key": "881f9e92-70f7-432a-ae9d-24456c744117",
+            "Value": {
+                "id": "5797e0da-880e-4df0-a482-705c82ae1f46",
+                "resourcePath": "sprites\\spr_Xbox\\spr_Xbox.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "98225878-2179-42eb-b40e-c65da3a64a05",
             "Value": {
                 "id": "796fea74-b211-4b86-8252-8442300665b6",
@@ -307,6 +315,14 @@
             "Value": {
                 "id": "90ee01d6-5c53-44cb-992e-a520e0f9a9ce",
                 "resourcePath": "objects\\o_textbox\\o_textbox.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "e1480b14-6662-473c-ab57-858bd1f2a92c",
+            "Value": {
+                "id": "8ae2a6c3-a61c-4ae0-a1e9-2dfa2f8aa088",
+                "resourcePath": "objects\\o_fieldmenu\\o_fieldmenu.yy",
                 "resourceType": "GMObject"
             }
         },
