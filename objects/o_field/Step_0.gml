@@ -1,38 +1,42 @@
 /// @description Once per step
 // You can write your code in this editor
 
-// Image index notes
+// Image index notes - 
+//			S   L   C   R
+// Dirt 	1,  2,  3,  4
+// Grass	5,  6,  7,  8
+// Carrots	9,  10, 11, 12
+// Wheat -  13, 14, 15, 16
 // 13 - Standalone
 // 14 - Left 
 // 15 - Center
 // 16 - Right
 
 
-
 //set neighbors
-if l_neighbor != noone and l_neighbor.sprite_index == spr_Fields {left = true;}
+if l_neighbor != noone and l_neighbor.crop_name == crop_name {left = true;}
 else {left = false;}
 
-if r_neighbor != noone and r_neighbor.sprite_index == spr_Fields {right = true;}
+if r_neighbor != noone and r_neighbor.crop_name == crop_name {right = true;}
 else {right = false;}
 
 if sprite_index = spr_Fields
 {
 	if left == true and right == true
 	{
-		image_index = 15;
+		image_index = start_index+2;
 	}
 	else if left == true and right == false
 	{
-		image_index = 16;
+		image_index = start_index+3;
 	}
 	else if left == false and right == true
 	{
-		image_index = 14;
+		image_index = start_index+1;
 	}
 	else
 	{
-		image_index = 13;
+		image_index = start_index;
 	}
 }
 

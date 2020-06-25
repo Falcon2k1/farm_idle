@@ -1,8 +1,8 @@
 {
-    "id": "5e9033da-5459-4b40-b719-947b28fee073",
+    "id": "2e457455-e939-4657-b813-b1bcf4f8ef88",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "draw_nineslice_yt",
+    "name": "add_crop",
     "IsCompatibility": false,
     "IsDnD": false
 }

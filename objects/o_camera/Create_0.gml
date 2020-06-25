@@ -7,14 +7,12 @@
 // 4 - 480  x 270
 // 5 - 384  x 216
 
-view_width = 480;
-view_height = 270;
+view_width = 640;
+view_height = 360;
 
 window_scale = 3;
 
 window_set_size(view_width*window_scale, view_height*window_scale);
-//window_set_size(view_width, view_height)
 alarm[0] = 1;
 
 surface_resize(application_surface, view_width*window_scale, view_height*window_scale);
-//surface_resize(application_surface, view_width, view_height);

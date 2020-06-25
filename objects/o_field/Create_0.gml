@@ -3,6 +3,8 @@
 
 click_cd = 0;
 wheat_output = 0;
+crop_name = noone;
+start_index = 0;
 
 l_neighbor = instance_position(x-15, y+1, o_field);
 r_neighbor = instance_position(x+17, y+1, o_field);
