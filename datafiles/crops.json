@@ -1,0 +1,34 @@
+{
+  "dirt": {
+    "name": "Dirt",
+    "description": "Just dirt. Why are you bothering to plant this?",
+    "base_value": 1,
+    "grow_speed": 1,
+    "sprite": "spr_Fields",
+    "image": 1
+  },
+  "grass": {
+    "name": "Grass",
+    "description": "Now you're starting to get somewhere! Look at you, mister grass-grower!",
+    "base_value": 1,
+    "grow_speed": 1,
+    "sprite": "spr_Fields",
+    "image": 5
+  },
+  "carrots": {
+    "name": "Carrots",
+    "description": "Whoa, this is some serious stuff.",
+    "base_value": 1,
+    "grow_speed": 1,
+    "sprite": "spr_Fields",
+    "image": 9
+  },
+  "wheat": {
+    "name": "Wheat",
+    "description": "Hard winter wheat, ready for harvesting and MAKING THAT BREAD.",
+    "base_value": 1,
+    "grow_speed": 1,
+    "sprite": "spr_Fields",
+    "image": 13
+  }
+}

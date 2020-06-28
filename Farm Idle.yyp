@@ -389,6 +389,14 @@
                 "resourcePath": "sprites\\spr_Fields\\spr_Fields.yy",
                 "resourceType": "GMSprite"
             }
+        },
+        {
+            "Key": "fadb36be-e90a-4fde-9bab-110b468ca263",
+            "Value": {
+                "id": "63d23ffe-636f-40f4-b74e-cfc7e8b2cb51",
+                "resourcePath": "datafiles_yy\\crops.json.yy",
+                "resourceType": "GMIncludedFile"
+            }
         }
     ],
     "script_order": [

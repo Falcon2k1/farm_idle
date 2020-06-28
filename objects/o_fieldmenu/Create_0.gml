@@ -21,9 +21,10 @@ with (b_dirt)
     // code here
 	x = other.x+10
 	y = other.y+50
-	sprite_index = global.crop_index[#crops.dirt, cropstats.sprite]
-	image_index = global.crop_index[#crops.dirt, cropstats.image]
-	crop_name = global.crop_index[#crops.dirt, cropstats.name]
+	var cropmap = global.crop_index2[? "dirt"]
+	sprite_index = asset_get_index(cropmap[? "sprite"])
+	image_index = cropmap[? "image"]
+	crop_name = cropmap[? "name"]
 	depth = -100
 	field_id = other.field_id
 }

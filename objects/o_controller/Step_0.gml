@@ -18,3 +18,4 @@ else
 {
 	global.wheat_cd -= global.delta_mult
 }
+
