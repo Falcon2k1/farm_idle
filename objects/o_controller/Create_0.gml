@@ -17,9 +17,4 @@ while (!file_text_eof(file))
 }
 file_text_close(file);
 
-global.crop_index2 = json_decode(json);
-
-
-show_debug_message("Test!"+string(global.crop_index2));
-
-//global.crop_index2 = json_decode(file_text_open_read(working_directory + "\crops.json"));
+global.crop_index = json_decode(json);

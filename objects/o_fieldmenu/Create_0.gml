@@ -4,6 +4,7 @@
 height = calc_9s_round(spr_Menus2,150)
 width = calc_9s_round(spr_Menus2,80)
 field_id = 0
+crop_id = 0
 
 // find out how many boxes I can display per row:
 //box_width = 32;
@@ -21,7 +22,7 @@ with (b_dirt)
     // code here
 	x = other.x+10
 	y = other.y+50
-	var cropmap = global.crop_index2[? "dirt"]
+	var cropmap = global.crop_index[? "dirt"]
 	sprite_index = asset_get_index(cropmap[? "sprite"])
 	image_index = cropmap[? "image"]
 	crop_name = cropmap[? "name"]
