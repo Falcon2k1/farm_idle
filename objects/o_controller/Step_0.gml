@@ -8,7 +8,6 @@ actual_delta = delta_time/1000000;
 global.delta_mult = actual_delta / target_delta
 
 // GET THAT WHEAT CALC SON
-
 if global.wheat_cd < 0
 {
 	global.wheat_total += get_all_obj(o_field,"wheat_output");

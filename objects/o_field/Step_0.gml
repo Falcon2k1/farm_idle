@@ -46,3 +46,20 @@
 //click cooldown checker
 if click_cd > 0 {click_cd -= global.delta_mult;}
 
+ //calculate value
+wheat_output = 0;
+for (var w=0; w < ds_grid_width(field); w+=1) 
+{    
+	for (var h=0; h < ds_grid_height(field); h+=1) {
+		var _current = field[# w, h]
+		switch (_current[0]) {
+		    case "wheat":
+		        // code here
+				wheat_output += _current[3];
+		        break;
+		    default:
+		        // code here
+		        break;
+		}
+	}
+}
