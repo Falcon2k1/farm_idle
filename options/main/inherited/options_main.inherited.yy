@@ -5,7 +5,8 @@
     "option_gameguid": "1715ddf9-6bdb-4bc7-b253-07e5a22bf80b",
     "option_game_speed": 60,
     "option_lastchanged": "17 June 2020 11:54:53",
-    "option_sci_usesci": false
+    "option_sci_usesci": false,
+    "option_spine_licence": true
 }←1225f6b0-ac20-43bd-a82e-be73fa0b6f4f|{
     "targets": 461609314234257646
 }←7b2c4976-1e09-44e5-8256-c527145e03bb|{

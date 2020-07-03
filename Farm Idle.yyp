@@ -39,6 +39,22 @@
             }
         },
         {
+            "Key": "12346d83-8b66-49f7-8dfc-0f9190740522",
+            "Value": {
+                "id": "811b2115-06a0-4fa0-818e-1523d3ad1eda",
+                "resourcePath": "datafiles_yy\\upgrades.json.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "1401e652-0683-43b4-a999-324ae57bb1d8",
+            "Value": {
+                "id": "97b14549-319c-4a76-a284-91d90e536927",
+                "resourcePath": "sprites\\upgrades\\upgrades.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1e26f896-c961-4af2-ade7-d7059190f8e4",
             "Value": {
                 "id": "91d577fd-1450-440e-9f03-cf4811e3e5a2",
@@ -348,6 +364,14 @@
                 "id": "86092e5e-4db0-46e6-a650-b5bfe508b5ca",
                 "resourcePath": "views\\e9c7707d-d9ae-4b33-8ff2-5394445d87ee.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "ed184a28-c011-4716-b7ed-5fdc16cd4fac",
+            "Value": {
+                "id": "606f31cb-052e-447c-8139-ce2fa33e215a",
+                "resourcePath": "objects\\o_resourcebar\\o_resourcebar.yy",
+                "resourceType": "GMObject"
             }
         },
         {

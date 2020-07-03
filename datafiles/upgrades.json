@@ -1,0 +1,35 @@
+{
+  "dirt": {
+    "dirt_0001":{
+      "name" : "Rich Soil",
+      "description" : "Soil so rich, it's worried about the proletariat.",
+      "mod_value" : "fertility",
+      "mod_amount" : "+1"
+    } 
+  },
+  "grass": {
+    "grass_0001": {
+      "name":"",
+      "description":"",
+      "mod_value": "",
+      "mod_amount": ""
+    }
+  },
+  "carrots": {
+    "carrots_0001": {
+      "name":"",
+      "description":"",
+      "mod_value": "",
+      "mod_amount": ""
+    }
+  },
+  "wheat": {
+
+  },
+  "field": {
+
+  },
+  "global": {
+
+  }
+}
