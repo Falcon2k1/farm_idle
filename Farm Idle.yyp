@@ -47,14 +47,6 @@
             }
         },
         {
-            "Key": "1401e652-0683-43b4-a999-324ae57bb1d8",
-            "Value": {
-                "id": "97b14549-319c-4a76-a284-91d90e536927",
-                "resourcePath": "sprites\\upgrades\\upgrades.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "1e26f896-c961-4af2-ade7-d7059190f8e4",
             "Value": {
                 "id": "91d577fd-1450-440e-9f03-cf4811e3e5a2",
