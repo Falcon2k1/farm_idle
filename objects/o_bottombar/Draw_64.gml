@@ -23,3 +23,10 @@ for (var _count = 0; _count < ds_list_size(crop_list); _count++) {
 	var _crop = global.crop_index[? _this]
 	draw_sprite(spr_Fields, _crop[? "image"],_menu_x,box_start_y)
 }
+
+if field_id != 0 and crop_id != 0 {
+	var _field = field_id.field[# crop_id[0], crop_id[1]]
+	var _x = _field[? "x"]
+	var _y = _field[? "y"]
+	draw_rectangle(_x, _y, _x+15, _y+15,true)
+}
