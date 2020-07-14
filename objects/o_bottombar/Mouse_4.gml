@@ -17,8 +17,8 @@ for (var _i = 0; _i < ds_list_size(crop_list); _i++) {
 			with (field_id) 
 			{
 				var _arr = field[# crop_id[0],crop_id[1]]
-				_arr[@ 0] = other.current_crop
-				_arr[@ 3] = other.crop_index[? "base_value"]
+				_arr[? "name"] = other.current_crop
+				_arr[? "value"] = other.crop_index[? "base_value"]
 			}
 		}
 }

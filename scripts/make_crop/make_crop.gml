@@ -6,35 +6,33 @@
 _m = ds_map_create();
 
 switch (argument[0]) {
-    case "Wheat":
-        _m[? "name"] = "Wheat";
+    case "wheat":
+        _m[? "name"] = "wheat";
 		_m[? "x"] = argument[1];
 		_m[? "y"] = argument[2];
 		_m[? "value"] = 0;
         break;
 		
-	case "Grass":
-		_m[? "name"] = "Grass";
+	case "grass":
+		_m[? "name"] = "grass";
 		_m[? "x"] = argument[1];
 		_m[? "y"] = argument[2];
 		_m[? "value"] = 0;
         break;
 		
-	case "Carrot":
-		_m[? "name"] = "Carrot";
+	case "carrot":
+		_m[? "name"] = "carrot";
 		_m[? "x"] = argument[1];
 		_m[? "y"] = argument[2];
 		_m[? "value"] = 0;
         break;
 	
 	default:
-        _m[? "name"] = "Dirt";
+        _m[? "name"] = "dirt";
 		_m[? "x"] = argument[1];
 		_m[? "y"] = argument[2];
 		_m[? "value"] = 0;
         break;
-    
-	default:
-        // code here
-        break;
 }
+
+return _m
