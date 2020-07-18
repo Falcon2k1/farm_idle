@@ -7,3 +7,4 @@ draw_text(x+10, y+10, txt_str)
 
 // draw and position the sprite for the x-box, might have to make this an object later
 // draw_sprite(spr_Xbox,0,x+width-2,y+1)
+

@@ -1,29 +1,59 @@
 {
   "dirt": {
-    "dirt_0001":{
-      "name" : "Rich Soil",
-      "description" : "Soil so rich, it's worried about the proletariat.",
-      "mod_value" : "fertility",
-      "mod_amount" : "+1"
-    } 
+    "dirt_000": {
+      "name":"Fertilizer",
+      "description":"Trapped here by yourself...wonder what you're using?",
+      "cost": {
+        "name":"dirt", 
+        "value": "5",
+        "mult_factor": "1.05"},
+      "mod" : {
+        "value":"base_value",
+        "amount":"1.5",
+        "op": "+="}
+      }
   },
   "grass": {
-    "grass_0001": {
-      "name":"",
-      "description":"",
-      "mod_value": "",
-      "mod_amount": ""
-    }
+    "grass_000": {
+      "name":"Wheat Growth",
+      "description":"Infuse your wheat with improved growth!",
+      "cost": {
+        "name":"dirt", 
+        "value": "5",
+        "mult_factor": "1.05"},
+      "mod" : {
+        "value":"base_value",
+        "amount":"1.5",
+        "op": "+="}
+      }
   },
   "carrots": {
-    "carrots_0001": {
+    "carrots_000": {
       "name":"",
       "description":"",
-      "mod_value": "",
-      "mod_amount": ""
+      "cost": {
+        "name":"dirt", 
+        "value": "5",
+        "mult_factor": "1.05"},
+      "mod" : {
+        "value":"base_value",
+        "amount":"1.5",
+        "op": "+="}
     }
   },
   "wheat": {
+    "wheat_000": {
+      "name":"Wheat Growth",
+      "description":"Infuse your wheat with improved growth!",
+      "cost": {
+        "name":"dirt", 
+        "value": "5",
+        "mult_factor": "1.05"},
+      "mod" : {
+        "value":"base_value",
+        "amount":"1.5",
+        "op": "+="}
+    }
 
   },
   "field": {
