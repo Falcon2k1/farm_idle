@@ -18,7 +18,7 @@ field = ds_grid_create(3,3)
 for (var w=0; w < ds_grid_width(field); w+=1) 
 {    
 	for (var h=0; h < ds_grid_height(field); h+=1) {
-		field[# w, h] = make_crop("dirt",x+16*w,y+16*h)
+		field[# w, h] = make_crop("unplowed",x+16*w,y+16*h)
 	}
 }
 

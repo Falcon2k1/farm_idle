@@ -1,4 +1,18 @@
 {
+  "unplowed": {
+    "unplowed_000": {
+      "name":"Unlock Plot",
+      "description":"Unlock this plot for use!",
+      "cost": {
+        "name":"dirt", 
+        "value": "5",
+        "mult_factor": "1.05"},
+      "mod" : {
+        "value":"base_value",
+        "amount":"1.5",
+        "op": "+="}
+      }
+  },
   "dirt": {
     "dirt_000": {
       "name":"Fertilizer",
@@ -13,9 +27,9 @@
         "op": "+="}
       }
   },
-  "grass": {
-    "grass_000": {
-      "name":"Wheat Growth",
+  "turnip": {
+    "turnip_000": {
+      "name":"Turnip Growth",
       "description":"Infuse your wheat with improved growth!",
       "cost": {
         "name":"dirt", 

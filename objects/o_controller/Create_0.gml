@@ -22,6 +22,8 @@ file_text_close(file);
 #endregion
 global.crop_index = json_decode(json);
 global.crop_list = ds_list_create()
+ds_list_add(global.crop_list, "dirt")
+ds_list_add(global.crop_list, "turnip")
 
 #region read upgrades.json
 file = file_text_open_read("upgrades.json");
@@ -36,20 +38,22 @@ file_text_close(file);
 global.upgrade_index = json_decode(json);
 global.upgrade_list = ds_list_create()
 
+// Killing this section for now, replacing with a one-by-one add
 
-#region populate the crop list
-var _next = ds_map_find_first(global.crop_index)
-var _count = 0
+//#region populate the crop list
+//var _next = ds_map_find_first(global.crop_index)
+//var _count = 0
 
-while (!is_undefined( _next ) )
-{
-	ds_list_add(global.crop_list, _next)
-	_next = ds_map_find_next(global.crop_index, _next)
-	_count++;
-}
+//while (!is_undefined( _next ) )
+//{
+//	ds_list_add(global.crop_list, _next)
+//	_next = ds_map_find_next(global.crop_index, _next)
+//	_count++;
+//}
 
-ds_list_sort(global.crop_list,true)
-#endregion
+//ds_list_sort(global.crop_list,true)
+//#endregion
+
 #region populate the upgrade list
 var _next = ds_map_find_first(global.upgrade_index)
 var _count = 0

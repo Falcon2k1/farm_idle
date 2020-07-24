@@ -1,27 +1,39 @@
 {
+  "unplowed": {
+    "name": "Unlockable Plot",
+    "description": "Bursting with opportunity.",
+    "base_value": 1,
+    "grow_speed": 1,
+    "sprite": "spr_Fields",
+    "image": 121,
+    "produce_name": "N/A"
+  },
   "dirt": {
     "name": "Dirt",
-    "description": "Just dirt. Why are you bothering to plant this?",
+    "description": "Letting the fields lay fallow gives you the opportunity to enrich the soil.",
     "base_value": 1,
     "grow_speed": 1,
     "sprite": "spr_Fields",
-    "image": 1
+    "image": 120,
+    "produce_name": "Fertilizer"
   },
-  "grass": {
-    "name": "Grass",
-    "description": "Now you're starting to get somewhere! Look at you, mister grass-grower!",
+  "turnip": {
+    "name": "Turnip",
+    "description": "Weird how these are always the starting crop.",
     "base_value": 1,
     "grow_speed": 1,
     "sprite": "spr_Fields",
-    "image": 5
+    "image": 0,
+    "produce_name": "Turnips"
   },
-  "carrots": {
-    "name": "Carrots",
-    "description": "Whoa, this is some serious stuff.",
+  "rice": {
+    "name": "Rice",
+    "description": "This rice is pretty nice.",
     "base_value": 1,
     "grow_speed": 1,
     "sprite": "spr_Fields",
-    "image": 9
+    "image": 54,
+    "produce_name": "Rice"
   },
   "wheat": {
     "name": "Wheat",
@@ -29,6 +41,7 @@
     "base_value": 1,
     "grow_speed": 1,
     "sprite": "spr_Fields",
-    "image": 13
+    "image": 60,
+    "produce_name": "Wheat"
   }
 }
