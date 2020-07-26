@@ -3,6 +3,7 @@
 draw_nineslice_med(spr_Menus2,x-20,y,width+20,height+100,false)
 draw_set_font(fnt_Menu)
 
+
 // set the two strings to draw:
 draw_str_left = "Harvest CD: "+string(floor(global.wheat_cd / 60))
 draw_str_right = "Field ID: " + string(field_id) + "\n Crop ID: " + string(crop_id);

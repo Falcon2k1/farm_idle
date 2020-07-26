@@ -6,7 +6,8 @@
     "grow_speed": 1,
     "sprite": "spr_Fields",
     "image": 121,
-    "produce_name": "N/A"
+    "produce_name": "N/A",
+    "timer": 0
   },
   "dirt": {
     "name": "Dirt",
@@ -15,7 +16,8 @@
     "grow_speed": 1,
     "sprite": "spr_Fields",
     "image": 120,
-    "produce_name": "Fertilizer"
+    "produce_name": "Fertilizer",
+    "timer": 1000
   },
   "turnip": {
     "name": "Turnip",
@@ -24,7 +26,8 @@
     "grow_speed": 1,
     "sprite": "spr_Fields",
     "image": 0,
-    "produce_name": "Turnips"
+    "produce_name": "Turnips",
+    "timer": 600
   },
   "rice": {
     "name": "Rice",
@@ -33,7 +36,8 @@
     "grow_speed": 1,
     "sprite": "spr_Fields",
     "image": 54,
-    "produce_name": "Rice"
+    "produce_name": "Rice",
+    "timer": 6000
   },
   "wheat": {
     "name": "Wheat",
@@ -42,6 +46,7 @@
     "grow_speed": 1,
     "sprite": "spr_Fields",
     "image": 60,
-    "produce_name": "Wheat"
+    "produce_name": "Wheat",
+    "timer": 6000
   }
 }

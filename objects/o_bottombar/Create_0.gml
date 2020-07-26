@@ -22,6 +22,18 @@ crop_list = ds_list_create()
 
 // LETS DO THE LIST LOOP AGAIN, INITIALIZE THE LIST OF CROPS
 
-for (var _count = 0; _count < ds_list_size(global.crop_list); _count++) { 
-	crop_list[| _count] = global.crop_list[| _count]
+#region Initialize List of crops
+var _nextcrop = ds_map_find_first(global.crop_list)
+var _nextmap = global.crop_list[? _nextcrop]
+var _count = 0
+
+while (!is_undefined( _nextcrop ) )
+{
+	ds_list_add(crop_list, _nextmap[? "name"])
+	_nextcrop = ds_map_find_next(global.crop_list, _nextcrop)
+	_nextmap = global.crop_list[? _nextcrop]
+	_count++;
 }
+
+ds_list_sort(crop_list,true)
+#endregion
