@@ -3,9 +3,9 @@
 /// @arg x
 /// @arg y
 
-_m = ds_map_create();
-_details = global.crop_index[? argument[0]]
-_start_val = 1
+var _m = ds_map_create();
+var _details = global.crop_index[? argument[0]]
+var _start_val = 1
 
 // Pre Loop for setting preconditionals
 switch (argument[0]) {

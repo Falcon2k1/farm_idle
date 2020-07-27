@@ -7,7 +7,7 @@ var _m = ds_map_create();
 var _details = global.crop_index[? argument[0]]
 
 // Setting up all the values
-_m[? "name"] = argument[0];
+_m[? "name"] = _details[? "name"]
 _m[? "quantity"] = 0
 _m[? "time_cur"] = 0
 _m[? "time_max"] = _details[? "timer"]

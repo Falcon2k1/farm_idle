@@ -5,11 +5,11 @@ target_delta = 1/60;
 
 // Previously, did individual calcs. 
 //// the inventory totals 
-global.wheat_total = 0;
-global.wheat_cd = 0;
+//global.wheat_total = 0;
+//global.wheat_cd = 0;
 
 //// what is our cooldown?
-global.wheat_timer = 600;
+//global.wheat_timer = 600;
 
 #region read crops.json
 file = file_text_open_read("crops.json");

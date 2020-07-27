@@ -29,7 +29,7 @@ var _count = 0
 
 while (!is_undefined( _nextcrop ) )
 {
-	ds_list_add(crop_list, _nextmap[? "name"])
+	ds_list_add(crop_list, _nextcrop)
 	_nextcrop = ds_map_find_next(global.crop_list, _nextcrop)
 	_nextmap = global.crop_list[? _nextcrop]
 	_count++;

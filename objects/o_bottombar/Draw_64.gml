@@ -5,11 +5,12 @@ draw_set_font(fnt_Menu)
 
 
 // set the two strings to draw:
-draw_str_left = "Harvest CD: "+string(floor(global.wheat_cd / 60))
+//draw_str_left = "Harvest CD: "+string(floor(global.wheat_cd / 60))
+draw_str_left = "This spot reserved for derp.";
 draw_str_right = "Field ID: " + string(field_id) + "\n Crop ID: " + string(crop_id);
 
 //draw some text!
-draw_text_ext(x,y,draw_str_left,-1,(width-20)/2);
+//draw_text_ext(x,y,draw_str_left,-1,(width-20)/2);
 draw_set_halign(fa_right);
 draw_text_ext(x+width-30,y,draw_str_right,-1,(width-20)/2);
 draw_set_halign(fa_left);
