@@ -10,7 +10,7 @@
 view_width = 640;
 view_height = 360;
 
-window_scale = 3;
+window_scale = 2;
 
 // Setting the GUI size for now to the same as the UI.
 display_set_gui_size(view_width, view_height);
