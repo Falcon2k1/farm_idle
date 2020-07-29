@@ -1,10 +1,10 @@
 /// @description Set variables
 
 // set variables for ease of later use
-height = calc_9s_round(spr_Menus2,o_camera.view_height * .8)
+height = calc_9s_round(spr_Menus2,o_camera.view_height * .77)
 width = calc_9s_round(spr_Menus2,o_camera.view_width * .2)
 x = o_camera.view_width - calc_9s_round(spr_Menus2,width)
-y = o_camera.view_height * .05
+y = o_camera.view_height * .08
 
 
 
