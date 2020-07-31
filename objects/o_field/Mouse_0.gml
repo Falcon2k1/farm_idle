@@ -3,7 +3,7 @@
 
 
 // creating the new menu - setting it VERY briefly for now to a set coordinate
-var menu = instance_find(o_bottombar,0)
+
 for (var w=0; w < ds_grid_width(field); w+=1) 
 {    
 	for (var h=0; h < ds_grid_height(field); h+=1) {
@@ -16,8 +16,7 @@ for (var w=0; w < ds_grid_width(field); w+=1)
 	}
 }
 
-with (menu)
-{
-	field_id = other.id;
-	crop_id = other.crop_id
-}
+
+global.cur_field = id;
+global.cur_crop = crop_id;
+

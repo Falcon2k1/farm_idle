@@ -5,20 +5,8 @@
 actual_delta = delta_time/1000000;	
 
 // finally, calculating the actual global.delta_mult
+// you can multiply any incremental value by this.
 global.delta_mult = actual_delta / target_delta
-
-// Removed for now, but storing.
-//if global.wheat_cd < 0
-//{
-//	global.wheat_total += get_all_obj(o_field,"wheat_output");
-//	global.wheat_cd = global.wheat_timer;
-//}
-//else
-//{
-//	global.wheat_cd -= global.delta_mult
-//}
-
-// okay let's try this again
 
 #region Loop through maps
 var _nextid = ds_map_find_first(global.crop_list)

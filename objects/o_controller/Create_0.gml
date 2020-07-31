@@ -3,14 +3,6 @@
 // setting target delta, or how many milliseconds a frame should take.
 target_delta = 1/60;
 
-// Previously, did individual calcs. 
-//// the inventory totals 
-//global.wheat_total = 0;
-//global.wheat_cd = 0;
-
-//// what is our cooldown?
-//global.wheat_timer = 600;
-
 #region read crops.json
 file = file_text_open_read("crops.json");
 json = ""
@@ -53,3 +45,8 @@ while (!is_undefined( _next ) )
 
 ds_list_sort(global.upgrade_list,true)
 #endregion
+
+// Setting an initial dirt value so you can buy your first unlock.
+var _dirt_map = global.crop_list[? "dirt"]
+_dirt_map[? "quantity"] = 100;
+

@@ -7,7 +7,7 @@ draw_set_font(fnt_Menu)
 // set the two strings to draw:
 //draw_str_left = "Harvest CD: "+string(floor(global.wheat_cd / 60))
 draw_str_left = "This spot reserved for derp.";
-draw_str_right = "Field ID: " + string(field_id) + "\n Crop ID: " + string(crop_id);
+draw_str_right = "Field ID: " + string(global.cur_field) + "\n Crop ID: " + string(global.cur_crop);
 
 //draw some text!
 //draw_text_ext(x,y,draw_str_left,-1,(width-20)/2);
@@ -18,7 +18,7 @@ draw_set_halign(fa_left);
 box_start_x = x+10;
 box_start_y = y+10+string_height(draw_str_left);
 
-// small loop
+// small loop to draw the objects
 for (var _count = 0; _count < ds_list_size(crop_list); _count++) { 
 	var _this = crop_list[| _count];
 	var _menu_x = box_start_x + _count * 32;
@@ -26,8 +26,8 @@ for (var _count = 0; _count < ds_list_size(crop_list); _count++) {
 	draw_sprite(spr_Fields, _crop[? "image"],_menu_x,box_start_y)
 }
 
-if field_id != 0 and crop_id != 0 {
-	var _field = field_id.field[# crop_id[0], crop_id[1]]
+if global.cur_field != 0 and global.cur_crop != 0 {
+	var _field = global.cur_field.field[# global.cur_crop[0], global.cur_crop[1]]
 	var _x = _field[? "x"]
 	var _y = _field[? "y"]
 	draw_rectangle(_x, _y, _x+15, _y+15,true)

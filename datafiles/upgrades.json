@@ -4,13 +4,10 @@
       "name":"Unlock Plot",
       "description":"Unlock this plot for use!",
       "cost": {
-        "name":"dirt", 
+        "name":"dirt",
         "value": "5",
-        "mult_factor": "1.05"},
-      "mod" : {
-        "value":"base_value",
-        "amount":"1.5",
-        "op": "+="}
+        "mult_factor": "1"},
+      "mod" : "unlocked"
       }
   },
   "dirt": {
