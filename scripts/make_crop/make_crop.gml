@@ -38,7 +38,7 @@ for (var i = 0; i < _start_val; ++i) {
 // debugger time - arbitrarily increasing the list of upgrades.
 if argument[0] == "dirt"{
 	var _tmap = _m[? "upgrade_list"]
-	for (var i = 1; i < 20; ++i) {
+	for (var i = 1; i < 10; ++i) {
 	    var _n = "dirt_00" + string(i);
 		_tmap[? _n] = ds_map_create();	
 		ds_map_copy(_tmap[? _n], _tmap[? "dirt_000"])

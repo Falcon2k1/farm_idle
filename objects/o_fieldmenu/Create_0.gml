@@ -6,6 +6,12 @@ width = calc_9s_round(spr_Menus2,o_camera.view_width * .2)
 x = o_camera.view_width - calc_9s_round(spr_Menus2,width)
 y = o_camera.view_height * .08
 title_text = "Upgrades!"
+desc_txt = ""
+
+dbox_height = calc_9s_round(spr_Menus2, 80)
+dbox_y = y + height - dbox_height
+
+
 
 // how much space I want between icons, minimum
 buffer = 5

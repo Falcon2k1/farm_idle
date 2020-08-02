@@ -13,7 +13,7 @@
   "dirt": {
     "dirt_000": {
       "name":"Fertilizer",
-      "description":"Trapped here by yourself...wonder what you're using?",
+      "description":"Trapped here by yourself... wonder what you're using?",
       "cost": {
         "name":"dirt", 
         "value": "5",

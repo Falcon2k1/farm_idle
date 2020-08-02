@@ -63,6 +63,14 @@
             }
         },
         {
+            "Key": "21b0d9b4-7f2c-407d-b5fc-7e8b61d0e481",
+            "Value": {
+                "id": "e2e2b766-76f4-46e2-a2d3-34a108847f1c",
+                "resourcePath": "sprites\\spr_Icons_S\\spr_Icons_S.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "28b73c65-46dd-4154-91c2-d4a92bc8dfe7",
             "Value": {
                 "id": "b514775d-00a7-4f1c-94a6-0429f05a5660",
@@ -196,6 +204,14 @@
                 "id": "6870c342-3589-422b-ad27-c099a031cbe5",
                 "resourcePath": "tilesets\\ts_Buildings\\ts_Buildings.yy",
                 "resourceType": "GMTileSet"
+            }
+        },
+        {
+            "Key": "6af2b0a3-e5d7-4f2b-84fc-f3af6ea853c1",
+            "Value": {
+                "id": "61bbe7a9-f7b2-4077-be75-5cba163d0450",
+                "resourcePath": "fonts\\fnt_Tiny\\fnt_Tiny.yy",
+                "resourceType": "GMFont"
             }
         },
         {
@@ -367,6 +383,14 @@
             }
         },
         {
+            "Key": "dfd5b062-f690-4255-baa2-4b3e13feb6f7",
+            "Value": {
+                "id": "6f8c39d3-d08c-4058-9659-063cf4a41dd5",
+                "resourcePath": "scripts\\draw_upgrades\\draw_upgrades.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "e1480b14-6662-473c-ab57-858bd1f2a92c",
             "Value": {
                 "id": "8ae2a6c3-a61c-4ae0-a1e9-2dfa2f8aa088",
@@ -452,7 +476,8 @@
         "9a77dff6-86c8-4acd-a742-a275d7bded11",
         "51a866c0-815b-4304-af88-f3986dfdbabc",
         "0b374a5a-433a-4789-b55e-4f672bb827d2",
-        "d72547c5-1a3c-4e79-9cf7-1e23b66f27d9"
+        "d72547c5-1a3c-4e79-9cf7-1e23b66f27d9",
+        "dfd5b062-f690-4255-baa2-4b3e13feb6f7"
     ],
     "tutorial": ""
 }

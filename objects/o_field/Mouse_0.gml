@@ -20,3 +20,4 @@ for (var w=0; w < ds_grid_width(field); w+=1)
 global.cur_field = id;
 global.cur_crop = crop_id;
 
+draw_upgrades()
